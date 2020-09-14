@@ -1,0 +1,198 @@
+/* core styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: quasimoda, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* nav styling */
+.navigation-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  padding: 1%;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  background-color: #ffffff00;
+  transition: background-color 0.9s ease-in-out;
+}
+
+.navigation-bar nav {
+  padding-right: 15%;
+}
+
+.navigation-bar h1 {
+  font-family: quasimoda, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding-right: 2%;
+  letter-spacing: 5px;
+}
+
+.navigation-bar ul {
+  display: flex;
+}
+
+.navigation-bar a {
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+}
+
+.navigation-bar a:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+.navigation-bar i {
+  padding: 10px;
+}
+
+/* nav mobile styling */
+
+@media only screen and (min-width: 1412px) {
+  
+  nav.mobile {
+    width: auto;
+    visibility: hidden;
+    display: none;
+  }
+
+  .mobile ul {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1413px) {
+  .navigation-bar  {
+    display: none;
+  }
+}
+
+.mobile-navigation-content {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-left: 2%;
+}
+
+.mobile-navigation-content h3 {
+  font-family: quasimoda, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .mobile-navigation-content h3 {
+    font-size: 3vw;
+  }
+}
+
+.mobile-navigation-content i {
+  margin-right: 5%;
+}
+
+.mobile-navigation {
+  height: 45px;
+  cursor: pointer;
+  width: 100%;
+  position: fixed;
+  background-color: #212121;
+}
+
+nav.mobile {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-box i {
+  padding: 5px;
+}
+
+/* Did this for the JS function purposes */
+.social-box {
+  visibility: hidden;
+}
+
+.mobile ul, .social-box {
+  background-color: #363636;
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  z-index: 1000;
+}
+
+.mobile ul li, .social-box {
+  padding: 10px;
+  padding-left: 19px;
+  margin: auto;
+}
+
+.mobile ul li:hover {
+  background-color: #666973;
+}
+
+.mobile ul li a, .social-box {
+  letter-spacing: 5px;
+}
+
+.social-box i {
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+
+
+/* hero section */
+header.hero-section {
+  background: linear-gradient(to bottom right, #0000001f, #00000017), url(./img/duval-hero.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 118vh;
+  position: relative;
+  color: #ffffff;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 12.8%;
+  height: auto;
+}
+
+.hero-content h2 {
+  font-family: quasimoda-2, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 3.5px;
+  font-size: 3.250em;
+  padding-bottom: 20px;
+  color: #f1f4f6;
+}
+
+.hero-content p {
+  font-family: 'Source Serif Pro', serif;
+  color: #f1f4f6;
+  font-size: 1.375em;
+}
+
+.hero-content img {
+  padding-bottom: 30px;
+}
