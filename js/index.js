@@ -55,13 +55,28 @@ function plusDivs(n) {
 function showDivs(n) {
   let i;
   let x = document.getElementsByClassName("mySlides");
-  let b = document.getElementsByClassName("mySlidesImg");
   if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
-    b[i].style.display = "none";  
+    x[slideIndex-1].style.display = "block";
   }
-  x[slideIndex-1].style.display = "block";
-  b[slideIndex-1].style.display = "block";  
+};
+
+let slideIndexTwo = 1;
+showDiv(slideIndexTwo);
+
+function plusDivTwo(m) {
+  showDiv(slideIndexTwo += m);
+}
+
+function showDiv(m) {
+  let o;
+  let y = document.getElementsByClassName("mySlide-2");
+  if (m > y.length) {slideIndexTwo = 1}
+  if (m < 1) {slideIndexTwo = y.length}
+  for (o = 0; o < y.length; o++) {
+    y[o].style.display = "none";
+    y[slideIndexTwo-1].style.display = "block";
+  }
 }

@@ -29,6 +29,7 @@ a {
   position: fixed;
   background-color: #ffffff00;
   transition: background-color 0.9s ease-in-out;
+  z-index: 10000;
 }
 
 .navigation-bar nav {
@@ -118,6 +119,8 @@ a {
 nav.mobile {
   display: flex;
   flex-wrap: wrap;
+  z-index: 10000;
+  position: absolute;
 }
 
 .social-box i {

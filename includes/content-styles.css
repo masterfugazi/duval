@@ -211,3 +211,184 @@
     flex-wrap: wrap;
   }
 }
+
+.slide-controls {
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-controls i {
+  padding: 20px;
+}
+
+@media only screen and (max-width: 950px) {
+  .slide-to-hide {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 951px) {
+  .slide-controls {
+    display: none;
+  }
+}
+
+#get-in-touch {
+  background-color: #5e8497;
+}
+
+.get-in-touch-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 30px;
+}
+
+.get-in-touch-box .content-column {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  max-width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.content-column img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.content-column-1 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 389px;
+}
+
+.content-column-1 h2 {
+  font-family: quasimoda, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 52px;
+  color: #232323;
+}
+
+.content-column-1 p {
+  font-family: 'Source Serif Pro', serif;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+  .get-in-touch-box {
+    flex-wrap: wrap;
+  }
+}
+
+#see-more {
+  background-color: #212121;
+}
+
+.see-more-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 30px;
+  flex-direction: row-reverse;
+}
+
+.see-more-box .content-column {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  max-width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.content-column-2 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 560px;
+}
+
+.content-column-2 h2 {
+  font-family: quasimoda, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 52px;
+  color: #666973;
+}
+
+.content-column-2 p {
+  font-family: 'Source Serif Pro', serif;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+  .see-more-box {
+    flex-wrap: wrap;
+  }
+}
+
+#learn-more {
+  background-image: url(./img/jacksonville-beach.png);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#learn-more .pattern-over-lay{
+  background-image: linear-gradient(0deg, rgba(53,107,106,0.9220063025210083) 0%, rgba(155,126,95,0.8239670868347339) 100%), url(./img/shape-overlay.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  max-width: 100%; 
+}
+
+.section-title-content#title-text h2{
+  font-family: quasimoda, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 52px;
+  color: #ffffff;
+  margin-bottom: 20%;
+}
+
+.section-title-sub-content#sub-text p{
+  font-family: 'Source Serif Pro', serif;
+  color: #ffffff;
+  font-size: 19px;
+}
+
+
+/*  */
+
+#what-we-deliver {
+  background-color: #212121;
+  height: 700px;
+}
+
+.what-we-do-section-banner {
+  background-image: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(255,255,255,0) 60%), url(./img/duval-what-we-do-banner.png);
+  background-position: center -110px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 59%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
