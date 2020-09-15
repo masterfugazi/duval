@@ -1,2 +1,40 @@
-/* mobile nav */
+/* mobile form */
 
+@media only screen and (max-width: 925px) {
+  .contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+  .form-control input {
+    width: 345px;
+  }
+
+  .see-more-box .content-column {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    max-width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  .section-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 30px;
+    margin: auto;
+    max-width: 1500px;
+    flex-wrap: wrap;
+  }
+
+  .hero-content-box {
+    margin-top: 25%;
+  }
+}

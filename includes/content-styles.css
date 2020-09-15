@@ -379,7 +379,7 @@
 
 #what-we-deliver {
   background-color: #212121;
-  height: auto;
+  height: 760px;
 }
 
 .what-we-do-section-banner {
@@ -387,7 +387,7 @@
   background-position: center -110px;
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 59%;
+  height: 64%;
   max-width: 100%;
   object-fit: cover;
 }
@@ -398,6 +398,7 @@
   font-style: normal;
   font-size: 52px;
   color: #666973;
+  margin-top: 17%;
 }
 
 .section-title-sub-content#what-we-do-sub-text p{
@@ -412,10 +413,113 @@
   align-items: center;
   text-align: center;
   max-width: 100%;
+  height: auto;
   flex-shrink: 1;
+  margin-top: 35px;
+}
+
+@media only screen and (max-width: 600px) {
+  .what-we-deliver-boxes {
+    flex-wrap: wrap;
+  }
+}
+
+.what-we-deliver-boxes h5 {
+  font-family: quasimoda, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #666973;
+}
+
+.what-we-deliver-boxes p {
+  font-family: 'Source Serif Pro', serif;
+  color: #898989;
 }
 
 .what-we-deliver-boxes div {
   padding: 20px;
+  flex: 0 50%;
+}
+
+#contact-us-box {
+  background-image: linear-gradient(0deg, rgba(33,33,33,0.804359243697479) 100%, rgba(33,33,33,0.804359243697479) 100%), url(./img/contact-us-background.png);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 10%;
+}
+
+.section-title-content#contact-title h2 {
+  font-family: quasimoda, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 52px;
+  color: #ffffff;
+  margin-top: 5%;
+}
+
+.section-title-sub-content#contact-sub-text p {
+  font-family: 'Source Serif Pro', serif;
+  color: #898989;
+}
+
+#contact-us-box .contact-us-section {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 2%;
+}
+
+.contact-form {
+  display: flex;
+  max-width: 100%;
+  
+}
+
+.form-control {
   width: 100%;
+  padding: 10px;
+}
+
+.form-control input {
+  padding: 15px;
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffffff;
+  opacity: 0.3;
+  outline: none;
+  max-width: 100%;
+}
+
+.form-control input::placeholder {
+  font-family: quasimoda, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 15px;
+  color: #212121
+}
+
+.form-control textarea {
+  width: 345px;
+  height: 115px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffffff;
+  padding: 15px;
+  opacity: 0.3; 
+  outline: none;
+  max-width: 100%;
+}
+
+.form-control textarea::placeholder {
+  font-family: quasimoda, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 15px;
+  color: #212121;
+}
+
+#duval-digital-footer {
+  background-color: #3f4147;
 }

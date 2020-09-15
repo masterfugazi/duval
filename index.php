@@ -122,37 +122,61 @@ include 'header.php';
 </section>
 
 <section id="what-we-deliver">
-<div class="what-we-do-section-banner"></div>
+<div class="what-we-do-section-banner">
 
-<div class="section-title-content" id="what-we-do-title">
-      <h2>What We Deliver</h2>
-      <div class="section-title-sub-content" id="what-we-do-sub-text">
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
-      </div>  
+    <div class="section-title-content" id="what-we-do-title">
+          <h2>What We Deliver</h2>
+          <div class="section-title-sub-content" id="what-we-do-sub-text">
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>  
+      </div>
+      <div class="what-we-deliver-boxes">
+        <div>
+          <img src="./includes/img/experience-passion.png" alt="">
+          <h5>EXPERIECE & PASSION</h5>
+          <P>Lorem, ipsum dolor.Lorem, ipsum dolor!</P>
+        </div>
+        <div>
+        <img src="./includes/img/powerful-voice.png" alt="">
+          <h5>EXPERIECE & PASSION</h5>
+          <P>Lorem, ipsum dolor.Lorem, ipsum dolor!</P>
+        </div>
+        <div>
+        <img src="./includes/img/attractive-value.png" alt="">
+          <h5>EXPERIECE & PASSION</h5>
+          <P>Lorem, ipsum dolor.Lorem, ipsum dolor!</P>
+        </div>
+        <div>
+        <img src="./includes/img/real-life-results.png" alt="">
+          <h5>EXPERIECE & PASSION</h5>
+          <P>Lorem, ipsum dolor.Lorem, ipsum dolor!</P>
+        </div>
+      </div>
   </div>
-  <div class="what-we-deliver-boxes">
-    <div>
-      <img src="./includes/img/experience-passion.png" alt="">
-      <h5>EXPERIECE & PASSION</h5>
-      <P>Lorem, ipsum dolor.Lorem, ipsum dolor!</P>
-    </div>
-    <div>
-    <img src="./includes/img/experience-passion.png" alt="">
-      <h5>EXPERIECE & PASSION</h5>
-      <P>Lorem, ipsum dolor.Lorem, ipsum dolor!</P>
-    </div>
-    <div>
-    <img src="./includes/img/experience-passion.png" alt="">
-      <h5>EXPERIECE & PASSION</h5>
-      <P>Lorem, ipsum dolor.Lorem, ipsum dolor!</P>
-    </div>
-    <div>
-    <img src="./includes/img/experience-passion.png" alt="">
-      <h5>EXPERIECE & PASSION</h5>
-      <P>Lorem, ipsum dolor.Lorem, ipsum dolor!</P>
-    </div>
-  </div>
+</section>
 
+<section id="contact-us-box">
+        <div class="section-title-content" id="contact-title">
+          <h2>Connect with Us</h2>
+          <div class="section-title-sub-content" id="contact-sub-text">
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>  
+        </div>
+  <div class="contact-us-section">
+    <form action="" class="contact-form">
+        <div class="form-control">
+        <input type="email" name="mail" id="email" placeholder="Email">
+        </div>
+
+        <div class="form-control">
+        <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Message"></textarea>
+        </div>
+
+        <div class="form-control">
+        <button class="primary-button">REACH OUT</button>
+        </div>
+    </form> 
+  </div>
 </section>
 
 <?php

@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
   <link rel="stylesheet" href="./includes/head-styles.css">
   <link rel="stylesheet" href="./includes/content-styles.css">
+  <link rel="stylesheet" href="./includes/footer-styles.css">
   <link rel="stylesheet" href="./includes/mobilestyles.css">
   <script src="./js/index.js"></script>
   <!-- font imports -->
@@ -55,7 +56,7 @@
 </nav>
 
 <div class="hero-content">
-  <div>
+  <div class="hero-content-box">
     <img src="./includes/img/duval-logo.png" alt="">
     </div>
     <h2>Duval Digital Marketing</h2>
