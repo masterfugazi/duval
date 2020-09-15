@@ -124,11 +124,33 @@ include 'header.php';
 <section id="what-we-deliver">
 <div class="what-we-do-section-banner"></div>
 
-<div class="section-title-content">
-    <h2>What We Deliver</h2>
-    <div class="section-title-sub-content">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio obcaecati vitae tempora rerum illum perferendis, dolorum beatae optio incidunt enim!</p>
-    </div>  
+<div class="section-title-content" id="what-we-do-title">
+      <h2>What We Deliver</h2>
+      <div class="section-title-sub-content" id="what-we-do-sub-text">
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+      </div>  
+  </div>
+  <div class="what-we-deliver-boxes">
+    <div>
+      <img src="./includes/img/experience-passion.png" alt="">
+      <h5>EXPERIECE & PASSION</h5>
+      <P>Lorem, ipsum dolor.Lorem, ipsum dolor!</P>
+    </div>
+    <div>
+    <img src="./includes/img/experience-passion.png" alt="">
+      <h5>EXPERIECE & PASSION</h5>
+      <P>Lorem, ipsum dolor.Lorem, ipsum dolor!</P>
+    </div>
+    <div>
+    <img src="./includes/img/experience-passion.png" alt="">
+      <h5>EXPERIECE & PASSION</h5>
+      <P>Lorem, ipsum dolor.Lorem, ipsum dolor!</P>
+    </div>
+    <div>
+    <img src="./includes/img/experience-passion.png" alt="">
+      <h5>EXPERIECE & PASSION</h5>
+      <P>Lorem, ipsum dolor.Lorem, ipsum dolor!</P>
+    </div>
   </div>
 
 </section>
